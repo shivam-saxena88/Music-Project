@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html>
+
+                                   <!--STARTING OF HEAD TAG-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	            <!--TITLE TAG SHOWS THE TITLE NAME ON A PAGES'S TAB-->
+	<title> Music Project</title>
+	            <!--END OF A TITLE TAG-->
+
+
+	            <!--ATTACH A MUSIC-ICON VIA FAVICON-->
+	<link rel="icon" type="image/x-icon" href="assets\logo2.png">
+	            <!--END OF FAVICON ATTACHEMENT-->
+    
+
+                   <!--SCRIPTING OF FONTAWESOME WEBSITE FOR ICONS-->
+	<script
+			src="https://kit.fontawesome.com/34162fcf4d.js"
+			crossorigin="anonymous"
+		></script>
+                   <!--END OF A SCRIPTING-->
+
+
+                   <!--LINKING A EXTERNAL CSS SOURCE FILE-->
+                   <link rel="stylesheet" type="text/css" href="player.css">
+                   <!--END OF LINKING CSS SOURCE FILE-->
+
+
+
+</head>
+                         <!--ENDING A HEAD TAG-->
+
+
+                         <!--STARTING A BODY TAG-->
+<body>
+
+<!-- MAIN CONTAINER START -->
+		<div class="container">
+			<!-- NAVIGATIN BAR START -->
+			<nav class="navbar flex row jc-s ai-c">
+				<div class="first-div flex row jc-s ai-c">
+					
+
+					<!-- LOGO -->
+					<div class="logo"></div>
+					<h3 class="company">
+						<strong>MIX</strong>
+						<br />
+						<strong>Studio</strong>
+					</h3>
+
+					
+					<!-- FAVOURITES -->
+					<p class="favourites">Favourites</p>
+				</div>
+				<div class="second-div flex row jc-c ai-c">
+
+
+					
+					<!-- SEARCH BAR -->
+					<div class="search flex row jc-c ai-c">
+						<button class="search-icon">
+							<i class="fas fa-search"></i>
+						</button>
+						<input type="text" class="search" placeholder="Search!!" />
+						
+						<button class="mic-icon">
+							<i class="fas fa-microphone"></i>
+						</button>
+					</div>
+
+
+					<!-- NOTIFICATIN SECTION -->
+					<button class="bell-btn">
+						<i class="fas fa-bell notification"></i>
+					</button>
+					<!-- PROFILE IMAGE -->
+					<div class="profile-pic"></div>
+					
+				</div>
+			</nav>
+
+
+			                         <!-- NAVIGATION BAR END -->
+
+
+
+			                         <!-- LEFT SIDE COMPONENT START -->
+			<main class="left-side">
+				<!-- TOP BANNER -->
+				<section class="banner flex row jc-c ai-c">
+					<!-- SINGER-IMAGE -->
+					<div class="image"></div>
+					<!-- ARTIST INFORMATION -->
+					<div class="text flex col">
+						<header class="flex row jc-sb ai-c">
+							<h3>Alan Walker</h3>
+							<p class="font">9.4m followers</p>
+						</header>
+						<p class="font">Norwegian DJ</p>
+						<p class="font">
+							Alan Olav Walker (born 24 August 1997) is a British-born Norwegian DJ, YouTuber and record producer primarily known for the critically acclaimed single "Faded" (2015), which was certified platinum in 14 countries. He has also made several songs including "Sing Me to Sleep", "Alone", "Darkside", and "On My Way", all of which attracted millions of views on YouTube.
+						</p>
+						<div class="button flex row jc-s ai-c">
+							<div class="btn font"><a href="#">Play All</a></div>
+							<a href="#" class="font">Follow</a>
+						</div>
+						<p class="font">247 Tracks | 128 Albums</p>
+					</div>
+				</section>
+
+
+				<!-- SONGS PLAYLIST DISPLAY -->
+				<div class="songs">
+
+					               <!-- SONG1 -->
+					<div class="slot flex row jc-sb ai-c">
+						<p class="font flex jc-c ai-c number">01</p>
+						<div class="song flex row jc-sb ai-c">
+							<div class="image">
+								<input
+									type="checkbox"
+									id="play-toggle99"
+									name="play-toggle99"
+								/>
+								<label for="play-toggle99">
+									<div class="play">
+										<i class="fas fa-play"></i>
+										<i class="fas fa-pause"></i>
+									</div>
+								</label>
+							</div>
+							<div class="about flex col jc-c ai-c">
+								<p class="flex row jc-sb">
+									<span class="title font">DO IT ALL FOR YOU</span>
+									<span class="duration font flex ai-c jc-c">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-plus"></i>
+									</span>
+								</p>
+								<p>
+									<span class="artist font">Alan-Walker</span>
+								</p>
+							</div>
+						</div>
+					</div>
+
+
+					                 <!-- SONG 2 -->
+					<div class="slot flex row jc-sb ai-c">
+						<p style="color: cyan;" class="font flex jc-c ai-c number">
+							<i class="fa-solid fa-chart-simple"></i>
+						</p>
+						<div class="song flex row jc-sb ai-c">
+							<div class="image">
+								<input
+									type="checkbox"
+									id="play-toggle98"
+									name="play-toggle98"
+								/>
+								<label for="play-toggle98">
+									<div class="play">
+										<i class="fas fa-play"></i>
+										<i class="fas fa-pause"></i>
+									</div>
+								</label>
+							</div>
+							<div class="about flex col jc-c ai-c">
+								<p class="flex row jc-sb">
+									<span class="title font">Darkside</span>
+									<span class="duration font flex ai-c jc-c">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-plus"></i>
+									</span>
+								</p>
+								<p>
+									<span class="artist font">Alan-Walker</span>
+								</p>
+							</div>
+						</div>
+					</div>
+
+
+
+					<!-- SONG 3 -->
+					<div class="slot flex row jc-sb ai-c">
+						<p class="font flex jc-c ai-c number">03</p>
+						<div class="song flex row jc-sb ai-c">
+							<div class="image">
+								<input
+									type="checkbox"
+									id="play-toggle97"
+									name="play-toggle97"
+								/>
+								<label for="play-toggle97">
+									<div class="play">
+										<i class="fas fa-play"></i>
+										<i class="fas fa-pause"></i>
+									</div>
+								</label>
+							</div>
+							<div class="about flex col jc-c ai-c">
+								<p class="flex row jc-sb">
+									<span class="title font">Faded</span>
+									<span class="duration font flex ai-c jc-c">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-plus"></i>
+									</span>
+								</p>
+								<p>
+									<span class="artist font">Alan-Walker</span>
+								</p>
+							</div>
+						</div>
+					</div>
+
+
+					<!-- SONG 4 -->
+					<div class="slot flex row jc-sb ai-c">
+						<p class="font flex jc-c ai-c number">04</p>
+						<div class="song flex row jc-sb ai-c">
+							<div class="image">
+								<input
+									type="checkbox"
+									id="play-toggle96"
+									name="play-toggle96"
+								/>
+								<label for="play-toggle96">
+									<div class="play">
+										<i class="fas fa-play"></i>
+										<i class="fas fa-pause"></i>
+									</div>
+								</label>
+							</div>
+							<div class="about flex col jc-c ai-c">
+								<p class="flex row jc-sb">
+									<span class="title font">I don't wanna go</span>
+									<span class="duration font flex ai-c jc-c">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-plus"></i>
+									</span>
+								</p>
+								<p>
+									<span class="artist font">Alan Walker</span>
+								</p>
+							</div>
+						</div>
+					</div>
+
+
+
+					<!-- SONG 5 -->
+					<div class="slot flex row jc-sb ai-c">
+						<p class="font flex jc-c ai-c number">05</p>
+						<div class="song flex row jc-sb ai-c">
+							<div class="image">
+								<input
+									type="checkbox"
+									id="play-toggle95"
+									name="play-toggle95"
+								/>
+								<label for="play-toggle95">
+									<div class="play">
+										<i class="fas fa-play"></i>
+										<i class="fas fa-pause"></i>
+									</div>
+								</label>
+							</div>
+							<div class="about flex col jc-c ai-c">
+								<p class="flex row jc-sb">
+									<span class="title font">Ignite</span>
+									<span class="duration font flex ai-c jc-c">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-plus"></i>
+									</span>
+								</p>
+								<p>
+									<span class="artist font">Alan Walker</span>
+								</p>
+							</div>
+						</div>
+					</div>
+
+
+					<!-- SONG 6 -->
+					<div class="slot flex row jc-sb ai-c">
+						<p class="font flex jc-c ai-c number">06</p>
+						<div class="song flex row jc-sb ai-c">
+							<div class="image">
+								<input
+									type="checkbox"
+									id="play-toggle94"
+									name="play-toggle94"
+								/>
+								<label for="play-toggle94">
+									<div class="play">
+										<i class="fas fa-play"></i>
+										<i class="fas fa-pause"></i>
+									</div>
+								</label>
+							</div>
+							<div class="about flex col jc-c ai-c">
+								<p class="flex row jc-sb">
+									<span class="title font">ON My Way</span>
+									<span class="duration font flex ai-c jc-c">
+										<i class="far fa-heart"></i>
+										<i class="fas fa-plus"></i>
+									</span>
+								</p>
+								<p>
+									<span class="artist font">Alan Walker</span>
+								</p>
+							</div>
+						</div>
+					</div>
+
+						</div>
+			</main>
+			                           <!-- LEFT SIDE COMPONENT END -->
+
+
+			                           <!-- RIGHT SIDE COMPONENT START -->
+
+			<aside class="right-side">
+
+
+				<!-- SIMILAR ARTIST SECTION -->
+				<section class="similar-artists">
+
+					<!-- HEADER -->
+					<header class="flex row jc-sb ai-c font">
+						<h3>Similar Artists</h3>
+						<p>View All</p>
+					</header>
+
+					<!-- ARTIST DISPLAY -->
+					<div class="content mt-3 flex col jc-sb ai-c">
+
+
+						<!-- ARTIST 1-->
+						<div class="slot flex row jc-s ai-c">
+							<div class="image">
+								<input
+									type="checkbox"
+									id="play-toggle1"
+									name="play-toggle1"
+								/>
+								<label for="play-toggle1">
+									<div class="play">
+										<i class="fas fa-play"></i>
+										<i class="fas fa-pause"></i>
+									</div>
+								</label>
+							</div>
+							<div class="about">
+								<div class="options-container1 flex jc-e ai-c">
+									<input
+										type="checkbox"
+										name="options-checkbox1"
+										id="options-checkbox1"
+									/>
+									<label for="options-checkbox1" id="options-label">
+										<i
+											style="color: white"
+											class="fas fa-ellipsis-h"
+										></i>
+									</label>
+									<ul class="options-playlist font">
+										<li>
+											<a href="#">
+												&nbsp;&nbsp;
+												<i
+													style="color: black"
+													class="fas fa-play"
+												></i>
+												&nbsp;&nbsp; Play Now
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												&nbsp;&nbsp;
+												<i
+													style="color: black"
+													class="fas fa-plus"
+												></i>
+												&nbsp;&nbsp; Add To Queue
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												&nbsp;&nbsp;
+												<i
+													style="color: black"
+													class="fas fa-heart"
+												></i>
+												&nbsp;&nbsp; Add To Favourites
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												&nbsp;&nbsp;
+												<i
+													style="color: black"
+													class="fas fa-info-circle"
+												></i>
+												&nbsp;&nbsp; Get Info
+											</a>
+										</li>
+									</ul>
+								</div>
+
+								
+								<p class="flex row jc-sb">
+									<span class="title font">Ed Sheeran</span>
+									<span class="duration font">4:50</span>
+								</p>
+								<p>
+									<span class="artist font">Pop Artist</span>
+								</p>
+							</div>
+						</div>
+
+
+						<!-- ARTIST 2 -->
+						<div class="slot flex row jc-s ai-c">
+							<div class="image">
+								<input
+									type="checkbox"
+									id="play-toggle2"
+									name="play-toggle2"
+								/>
+								<label for="play-toggle2">
+									<div class="play">
+										<i class="fas fa-play"></i>
+										<i class="fas fa-pause"></i>
+									</div>
+								</label>
+							</div>
+							<div class="about">
+								<div class="options-container2 flex jc-e ai-c">
+									<input
+										type="checkbox"
+										name="options-checkbox2"
+										id="options-checkbox2"
+									/>
+									<label for="options-checkbox2" id="options-label">
+										<i
+											style="color: white"
+											class="fas fa-ellipsis-h"
+										></i>
+									</label>
+									<ul class="options-playlist font">
+										<li>
+											<a href="#">
+												&nbsp;&nbsp;
+												<i
+													style="color: black"
+													class="fas fa-play"
+												></i>
+												&nbsp;&nbsp; Play Now
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												&nbsp;&nbsp;
+												<i
+													style="color: black"
+													class="fas fa-plus"
+												></i>
+												&nbsp;&nbsp; Add To Queue
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												&nbsp;&nbsp;
+												<i
+													style="color: black"
+													class="fas fa-heart"
+												></i>
+												&nbsp;&nbsp; Add To Favourites
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												&nbsp;&nbsp;
+												<i
+													style="color: black"
+													class="fas fa-info-circle"
+												></i>
+												&nbsp;&nbsp; Get Info
+											</a>
+										</li>
+									</ul>
+								</div>
+								<p class="flex row jc-sb">
+									<span class="title font">Dua Lipa</span>
+									<span class="duration font">4:50</span>
+								</p>
+								<p>
+									<span class="artist font">Pop Artist</span>
+								</p>
+							</div>
+						</div>
+
+
+						<!--ARTIST 3 -->
+						<div class="slot flex row jc-s ai-c">
+							<div class="image">
+								<input
+									type="checkbox"
+									id="play-toggle3"
+									name="play-toggle3"
+								/>
+								<label for="play-toggle3">
+									<div class="play">
+										<i class="fas fa-play"></i>
+										<i class="fas fa-pause"></i>
+									</div>
+								</label>
+							</div>
+							<div class="about">
+								<div class="options-container3 flex jc-e ai-c">
+									<input
+										type="checkbox"
+										name="options-checkbox3"
+										id="options-checkbox3"
+									/>
+									<label for="options-checkbox3" id="options-label">
+										<i
+											style="color: white"
+											class="fas fa-ellipsis-h"
+										></i>
+									</label>
+									<ul class="options-playlist font">
+										<li>
+											<a href="#">
+												&nbsp;&nbsp;
+												<i
+													style="color: black"
+													class="fas fa-play"
+												></i>
+												&nbsp;&nbsp; Play Now
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												&nbsp;&nbsp;
+												<i
+													style="color: black"
+													class="fas fa-plus"
+												></i>
+												&nbsp;&nbsp; Add To Queue
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												&nbsp;&nbsp;
+												<i
+													style="color: black"
+													class="fas fa-heart"
+												></i>
+												&nbsp;&nbsp; Add To Favourites
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												&nbsp;&nbsp;
+												<i
+													style="color: black"
+													class="fas fa-info-circle"
+												></i>
+												&nbsp;&nbsp; Get Info
+											</a>
+										</li>
+									</ul>
+								</div>
+								<p class="flex row jc-sb">
+									<span class="title font">Elton John</span>
+									<span class="duration font">4:50</span>
+								</p>
+								<p>
+									<span class="artist font">Pop Artist</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+
+
+				<!-- RECENTLY PLAYED SECTION-->
+				<section class="recently-played mt-3">
+
+					<!-- HEADER -->
+					<header class="flex row jc-sb ai-c font">
+						<h3>Recently Played</h3>
+						<p>View All</p>
+					</header>
+
+					<!-- SONGS DISPLAY -->
+					<div class="content mt-3 flex col jc-c ai-c">
+                    
+                    <!-- SONG 1 -->
+						<div class="slot flex row jc-sb ai-c">
+							<p class="font flex jc-c ai-c">01</p>
+							<div class="song flex row jc-sb ai-c">
+								<div class="image">
+									<input
+										type="checkbox"
+										id="play-toggle17"
+										name="play-toggle17"
+									/>
+									<label for="play-toggle17">
+										<div class="play">
+											<i class="fas fa-play"></i>
+											<i class="fas fa-pause"></i>
+										</div>
+									</label>
+								</div>
+								<div class="about flex col jc-c ai-c">
+									<p class="flex row jc-sb">
+										<span class="title font">The Spectre</span>
+										<span class="duration font flex ai-c jc-e">
+											<i class="far fa-heart"></i>
+										</span>
+									</p>
+									<p>
+										<span class="artist font">Alan-Walker</span>
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- SONG 2 -->
+						<div class="slot flex row jc-sb ai-c">
+							<p style="color: cyan;" class="font flex jc-c ai-c">
+								<i class="fa-solid fa-chart-simple"></i> </p>
+							<div class="song flex row jc-sb ai-c">
+								<div class="image">
+									<input
+										type="checkbox"
+										id="play-toggle18"
+										name="play-toggle18"
+									/>
+									<label for="play-toggle18">
+										<div class="play">
+											<i class="fas fa-play"></i>
+											<i class="fas fa-pause"></i>
+										</div>
+									</label>
+								</div>
+								<div class="about flex col jc-c ai-c">
+									<p class="flex row jc-sb">
+										<span class="title font">Sugar & Brownies</span>
+										<span class="duration font flex ai-c jc-e">
+											<i class="far fa-heart"></i>
+										</span>
+									</p>
+									<p>
+										<span class="artist font">Dharia</span>
+									</p>
+								</div>
+							</div>
+						</div>
+
+
+						<!-- SONG 3 -->
+						<div class="slot flex row jc-sb ai-c">
+							<p class="font flex jc-c ai-c">03</p>
+							<div class="song flex row jc-sb ai-c">
+								<div class="image">
+									<input
+										type="checkbox"
+										id="play-toggle19"
+										name="play-toggle19"
+									/>
+									<label for="play-toggle19">
+										<div class="play">
+											<i class="fas fa-play"></i>
+											<i class="fas fa-pause"></i>
+										</div>
+									</label>
+								</div>
+								<div class="about flex col jc-c ai-c">
+									<p class="flex row jc-sb">
+										<span class="title font">Mercy</span>
+										<span class="duration font flex ai-c jc-e">
+											<i class="far fa-heart"></i>
+										</span>
+									</p>
+									<p>
+										<span class="artist font">Masked Wolf</span>
+									</p>
+								</div>
+							</div>
+						</div>
+
+
+
+						<!-- SONG 4-->
+						<div class="slot flex row jc-sb ai-c">
+							<p class="font flex jc-c ai-c">04</p>
+							<div class="song flex row jc-sb ai-c">
+								<div class="image">
+									<input
+										type="checkbox"
+										id="play-toggle20"
+										name="play-toggle20"
+									/>
+									<label for="play-toggle20">
+										<div class="play">
+											<i class="fas fa-play"></i>
+											<i class="fas fa-pause"></i>
+										</div>
+									</label>
+								</div>
+								<div class="about flex col jc-c ai-c">
+									<p class="flex row jc-sb">
+										<span class="title font">Unstoppable</span>
+										<span class="duration font flex ai-c jc-e">
+											<i class="far fa-heart"></i>
+										</span>
+									</p>
+									<p>
+										<span class="artist font">Sia</span>
+									</p>
+								</div>
+							</div>
+						</div>
+
+
+						<!-- SONG 5 -->
+						<div class="slot flex row jc-sb ai-c">
+							<p class="font flex jc-c ai-c">05</p>
+							<div class="song flex row jc-sb ai-c">
+								<div class="image">
+									<input
+										type="checkbox"
+										id="play-toggle21"
+										name="play-toggle21"
+									/>
+									<label for="play-toggle21">
+										<div class="play">
+											<i class="fas fa-play"></i>
+											<i class="fas fa-pause"></i>
+										</div>
+									</label>
+								</div>
+								<div class="about flex col jc-c ai-c">
+									<p class="flex row jc-sb">
+										<span class="title font">Believer</span>
+										<span class="duration font flex ai-c jc-e">
+											<i class="far fa-heart"></i>
+										</span>
+									</p>
+									<p>
+										<span class="artist font">Imagine Dragons</span>
+									</p>
+								</div>
+							</div>
+						</div>
+
+
+						
+					</div>
+				</section>
+			</aside>
+			                              <!-- RIGHT SIDE COMPONENT END -->
+
+
+
+			                              <!--Begining of footer section-->
+   <footer>
+   <!--The bottom music bar which pops up when we play a music-->
+	<div id="music-bar">
+		<!--Music Icon-->
+		<div id="music-icon">
+			 <img src="assets\heymama.png" alt="music-icon">
+		</div>
+		<!--End of music icon-->
+		<!--Music title-->
+		<div id="music-title">
+			<b>Hey Mama (feat.Rexha & Afrojack)</b>
+            <div id="favourite">
+			   <i class="far fa-heart"></i>
+			</div>
+			<div id="remove">
+				<i class="fas fa-ban"></i>
+			</div>
+			<br/>
+			<artist>David Guetta</artist>
+		</div>
+		<!--End of music title-->
+		<!--Play buttons-->
+		<div id="play-buttons">
+			<i class="fas fa-random"></i>
+			<i class="fas fa-backward"></i>
+			<i class="fas fa-pause-circle"></i>
+			<i class="fas fa-forward"></i>
+			<i class="fas fa-undo-alt"></i>
+		</div>
+		<!--End of play buttons-->
+		<!--Music start time-->
+	    <div id="start-time">
+            0:00
+	    </div>
+	    <!--End of music start time-->
+	    <!--Music end time-->
+	    <div id="end-time">
+            5:04
+	    </div>
+	    <!--End of music end time-->
+	    <!--Begining of the progress bar-->
+		<div id="progress-bar">
+		     <div id="circle">
+			     <i class="fas fa-circle"></i>
+		    </div>
+		</div>
+		<!--End of progress bar-->
+		<!--Miscellaneous icons-->
+		<div id="queue">
+			<i class="fas fa-bars"></i>
+		</div>
+		<div id="volume">
+			<i class="fas fa-volume-up"></i>
+		</div>
+		<div id="progress-bar-volume">
+			<div id="circle-volume">
+			  <i class="fas fa-circle"></i>
+		    </div>
+		</div>
+		<!--End of miscellaneous icons-->
+	</div>
+	<!--End of music bar-->
+   </footer>
+   <!--End of footer section-->
+</body>
+<!--End of body section-->
+</html>
+
+
+</body>
+
+
+                         <!--ENDING A BODY TAG-->
+</html>
